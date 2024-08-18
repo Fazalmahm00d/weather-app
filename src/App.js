@@ -1,6 +1,7 @@
 
 import React, { useState } from "react";
 import { useEffect } from 'react';
+require('dotenv').config();
 
 function App() {
   const [city,setCity]= useState("Hyderabad");
@@ -29,7 +30,7 @@ function App() {
 
   
 
-  const API_KEY="d62d8d39ac22613dc3b073f150504af5";
+  const API_KEY=process.env.API_KEY;
 
   const fetchWeatherData = async () => {
     try {
