@@ -1,3 +1,6 @@
+Just replace the api key which in App.JS file and you are good to go!!!
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
